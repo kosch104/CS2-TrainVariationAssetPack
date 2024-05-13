@@ -1,4 +1,16 @@
 {
   "Assets.NAME[CarProp]": "CarProp",
-  "Assets.DESCRIPTION[CarProp]": "A small car prop without any functionality"
+  "Assets.DESCRIPTION[CarProp]": "A small car prop without any functionality",
+  "Assets.NAME[TrainPassengerEngine01_Double_1Car]": "Passenger Train (Double)",
+  "Assets.DESCRIPTION[TrainPassengerEngine01_Double_1Car]": "",
+  "Assets.NAME[TrainPassengerEngine01_1Car]": "Passenger Train (3 Segments)",
+  "Assets.DESCRIPTION[TrainPassengerEngine01_1Car]": "",
+  "Assets.NAME[TrainPassengerEngine01_2Car]": "Passenger Train (4 Segments)",
+  "Assets.DESCRIPTION[TrainPassengerEngine01_2Car]": "",
+  "Assets.NAME[TrainPassengerEngine01_3Car]": "Passenger Train (5 Segments)",
+  "Assets.DESCRIPTION[TrainPassengerEngine01_3Car]": "",
+  "Assets.NAME[TrainPassengerEngine01_4Car]": "Passenger Train (6 Segments)",
+  "Assets.DESCRIPTION[TrainPassengerEngine01_4Car]": "",
+  "Assets.NAME[TrainPassengerEngine01_5Car]": "Passenger Train (7 Segments)",
+  "Assets.DESCRIPTION[TrainPassengerEngine01_5Car]": ""
 }
