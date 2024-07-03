@@ -1,12 +1,12 @@
 {
     "$id": 0,
     "$type": "0|Game.Prefabs.MultipleUnitTrainFrontPrefab, Game",
-    "name": "TrainPassengerEngine01_3Car",
+    "name": "EU_TrainPassengerEngine01_1Car",
     "active": true,
     "components": {
         "$id": 1,
         "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
-        "$rlength": 6,
+        "$rlength": 5,
         "$rcontent": [
             {
                 "$id": 2,
@@ -121,36 +121,17 @@
             },
             {
                 "$id": 9,
-                "$type": "12|Game.Prefabs.ObsoleteIdentifiers, Game",
-                "name": "ObsoleteIdentifiers",
-                "active": true,
-                "m_PrefabIdentifiers": {
-                    "$id": 10,
-                    "$type": "13|Game.Prefabs.PrefabIdentifierInfo[], Game",
-                    "$rlength": 1,
-                    "$rcontent": [
-                        {
-                            "$id": 11,
-                            "$type": "14|Game.Prefabs.PrefabIdentifierInfo, Game",
-                            "m_Name": "Passenger Train Front",
-                            "m_Type": "MultipleUnitTrainFrontPrefab"
-                        }
-                    ]
-                }
-            },
-            {
-                "$id": 12,
-                "$type": "15|Game.Prefabs.ActivityLocation, Game",
+                "$type": "12|Game.Prefabs.ActivityLocation, Game",
                 "name": "ActivityLocation",
                 "active": true,
                 "m_Locations": {
-                    "$id": 13,
-                    "$type": "16|Game.Prefabs.ActivityLocation+LocationInfo[], Game",
+                    "$id": 10,
+                    "$type": "13|Game.Prefabs.ActivityLocation+LocationInfo[], Game",
                     "$rlength": 2,
                     "$rcontent": [
                         {
-                            "$id": 14,
-                            "$type": "17|Game.Prefabs.ActivityLocation+LocationInfo, Game",
+                            "$id": 11,
+                            "$type": "14|Game.Prefabs.ActivityLocation+LocationInfo, Game",
                             "m_Activity": $fstrref:"UnityGUID:55cd31323498ccf4ca4831d41291c0f4",
                             "m_Position": {
                                 "$type": 8,
@@ -170,8 +151,8 @@
                             }
                         },
                         {
-                            "$id": 15,
-                            "$type": 17,
+                            "$id": 12,
+                            "$type": 14,
                             "m_Activity": $fstrref:"UnityGUID:55cd31323498ccf4ca4831d41291c0f4",
                             "m_Position": {
                                 "$type": 8,
@@ -197,8 +178,8 @@
                 "m_RequireAuthorization": false
             },
             {
-                "$id": 16,
-                "$type": "18|Game.Prefabs.UIObject, Game",
+                "$id": 13,
+                "$type": "15|Game.Prefabs.UIObject, Game",
                 "name": "UIObject",
                 "active": true,
                 "m_Group": null,
@@ -210,13 +191,13 @@
         ]
     },
     "m_Meshes": {
-        "$id": 17,
-        "$type": "19|Game.Prefabs.ObjectMeshInfo[], Game",
+        "$id": 14,
+        "$type": "16|Game.Prefabs.ObjectMeshInfo[], Game",
         "$rlength": 1,
         "$rcontent": [
             {
-                "$id": 18,
-                "$type": "20|Game.Prefabs.ObjectMeshInfo, Game",
+                "$id": 15,
+                "$type": "17|Game.Prefabs.ObjectMeshInfo, Game",
                 "m_Mesh": $fstrref:"UnityGUID:48f01a27112428849a93554cf9c393d3",
                 "m_Position": {
                     "$type": 8,
@@ -262,17 +243,17 @@
     "m_MinMultipleUnitCount": 1,
     "m_MaxMultipleUnitCount": 1,
     "m_Carriages": {
-        "$id": 19,
-        "$type": "21|Game.Prefabs.MultipleUnitTrainCarriageInfo[], Game",
+        "$id": 16,
+        "$type": "18|Game.Prefabs.MultipleUnitTrainCarriageInfo[], Game",
         "$rlength": 1,
         "$rcontent": [
             {
-                "$id": 20,
-                "$type": "22|Game.Prefabs.MultipleUnitTrainCarriageInfo, Game",
+                "$id": 17,
+                "$type": "19|Game.Prefabs.MultipleUnitTrainCarriageInfo, Game",
                 "m_Carriage": $fstrref:"UnityGUID:29ed104d73933484c8d7bf599f235d9e",
                 "m_Direction": 2,
-                "m_MinCount": 3,
-                "m_MaxCount": 3
+                "m_MinCount": 1,
+                "m_MaxCount": 1
             }
         ]
     },

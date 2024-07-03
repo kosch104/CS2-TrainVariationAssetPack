@@ -1,7 +1,7 @@
 {
     "$id": 0,
     "$type": "0|Game.Prefabs.MultipleUnitTrainFrontPrefab, Game",
-    "name": "TrainPassengerEngine01_1Car",
+    "name": "NA_TrainPassengerEngine01_4Car",
     "active": true,
     "components": {
         "$id": 1,
@@ -86,17 +86,17 @@
                             "m_PositionOffset": {
                                 "$type": 8,
                                 "x": 0,
-                                "y": 4.1484375,
-                                "z": 7.29499245
+                                "y": 2.56875,
+                                "z": 8.975
                             },
                             "m_Rotation": {
                                 "$type": 9,
                                 "value": {
                                     "$type": 10,
-                                    "x": 0.104528464,
+                                    "x": 0.165854454,
                                     "y": 0,
                                     "z": 0,
-                                    "w": 0.9945219
+                                    "w": 0.986150265
                                 }
                             },
                             "m_Scale": {
@@ -121,42 +121,23 @@
             },
             {
                 "$id": 9,
-                "$type": "12|Game.Prefabs.ObsoleteIdentifiers, Game",
-                "name": "ObsoleteIdentifiers",
-                "active": true,
-                "m_PrefabIdentifiers": {
-                    "$id": 10,
-                    "$type": "13|Game.Prefabs.PrefabIdentifierInfo[], Game",
-                    "$rlength": 1,
-                    "$rcontent": [
-                        {
-                            "$id": 11,
-                            "$type": "14|Game.Prefabs.PrefabIdentifierInfo, Game",
-                            "m_Name": "Passenger Train Front",
-                            "m_Type": "MultipleUnitTrainFrontPrefab"
-                        }
-                    ]
-                }
-            },
-            {
-                "$id": 12,
-                "$type": "15|Game.Prefabs.ActivityLocation, Game",
+                "$type": "12|Game.Prefabs.ActivityLocation, Game",
                 "name": "ActivityLocation",
                 "active": true,
                 "m_Locations": {
-                    "$id": 13,
-                    "$type": "16|Game.Prefabs.ActivityLocation+LocationInfo[], Game",
+                    "$id": 10,
+                    "$type": "13|Game.Prefabs.ActivityLocation+LocationInfo[], Game",
                     "$rlength": 2,
                     "$rcontent": [
                         {
-                            "$id": 14,
-                            "$type": "17|Game.Prefabs.ActivityLocation+LocationInfo, Game",
+                            "$id": 11,
+                            "$type": "14|Game.Prefabs.ActivityLocation+LocationInfo, Game",
                             "m_Activity": $fstrref:"UnityGUID:55cd31323498ccf4ca4831d41291c0f4",
                             "m_Position": {
                                 "$type": 8,
                                 "x": -1.33585548,
-                                "y": 0.876098633,
-                                "z": -8.167018
+                                "y": 0.87,
+                                "z": -7.6
                             },
                             "m_Rotation": {
                                 "$type": 9,
@@ -170,14 +151,14 @@
                             }
                         },
                         {
-                            "$id": 15,
-                            "$type": 17,
+                            "$id": 12,
+                            "$type": 14,
                             "m_Activity": $fstrref:"UnityGUID:55cd31323498ccf4ca4831d41291c0f4",
                             "m_Position": {
                                 "$type": 8,
                                 "x": 1.3354435,
                                 "y": 0.873718262,
-                                "z": -8.148057
+                                "z": -7.6
                             },
                             "m_Rotation": {
                                 "$type": 9,
@@ -197,8 +178,8 @@
                 "m_RequireAuthorization": false
             },
             {
-                "$id": 16,
-                "$type": "18|Game.Prefabs.UIObject, Game",
+                "$id": 13,
+                "$type": "15|Game.Prefabs.UIObject, Game",
                 "name": "UIObject",
                 "active": true,
                 "m_Group": null,
@@ -206,18 +187,25 @@
                 "m_Icon": "Media/Game/Icons/Train.svg",
                 "m_LargeIcon": "",
                 "m_IsDebugObject": false
+            },
+            {
+                "$id": 14,
+                "$type": "16|Game.Prefabs.ThemeObject, Game",
+                "name": "ThemeObject",
+                "active": true,
+                "m_Theme": $fstrref:"UnityGUID:6f24f89d231e81043b538ce3fb2b54ae"
             }
         ]
     },
     "m_Meshes": {
-        "$id": 17,
-        "$type": "19|Game.Prefabs.ObjectMeshInfo[], Game",
+        "$id": 15,
+        "$type": "17|Game.Prefabs.ObjectMeshInfo[], Game",
         "$rlength": 1,
         "$rcontent": [
             {
-                "$id": 18,
-                "$type": "20|Game.Prefabs.ObjectMeshInfo, Game",
-                "m_Mesh": $fstrref:"UnityGUID:48f01a27112428849a93554cf9c393d3",
+                "$id": 16,
+                "$type": "18|Game.Prefabs.ObjectMeshInfo, Game",
+                "m_Mesh": $fstrref:"UnityGUID:a07627bff21994c4a987f42e1447294d",
                 "m_Position": {
                     "$type": 8,
                     "x": 0,
@@ -262,17 +250,17 @@
     "m_MinMultipleUnitCount": 1,
     "m_MaxMultipleUnitCount": 1,
     "m_Carriages": {
-        "$id": 19,
-        "$type": "21|Game.Prefabs.MultipleUnitTrainCarriageInfo[], Game",
+        "$id": 17,
+        "$type": "19|Game.Prefabs.MultipleUnitTrainCarriageInfo[], Game",
         "$rlength": 1,
         "$rcontent": [
             {
-                "$id": 20,
-                "$type": "22|Game.Prefabs.MultipleUnitTrainCarriageInfo, Game",
-                "m_Carriage": $fstrref:"UnityGUID:29ed104d73933484c8d7bf599f235d9e",
+                "$id": 18,
+                "$type": "20|Game.Prefabs.MultipleUnitTrainCarriageInfo, Game",
+                "m_Carriage": $fstrref:"UnityGUID:5e587987ddc1ccd49827eabfd1404b23",
                 "m_Direction": 2,
-                "m_MinCount": 1,
-                "m_MaxCount": 1
+                "m_MinCount": 4,
+                "m_MaxCount": 4
             }
         ]
     },
