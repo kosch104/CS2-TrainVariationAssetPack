@@ -6,7 +6,7 @@
     "components": {
         "$id": 1,
         "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
-        "$rlength": 5,
+        "$rlength": 6,
         "$rcontent": [
             {
                 "$id": 2,
@@ -187,17 +187,24 @@
                 "m_Icon": "Media/Game/Icons/Train.svg",
                 "m_LargeIcon": "",
                 "m_IsDebugObject": false
+            },
+            {
+                "$id": 14,
+                "$type": "16|Game.Prefabs.ThemeObject, Game",
+                "name": "ThemeObject",
+                "active": true,
+                "m_Theme": $fstrref:"UnityGUID:846c60044f7ead04d9b11f0d749ea5f2"
             }
         ]
     },
     "m_Meshes": {
-        "$id": 14,
-        "$type": "16|Game.Prefabs.ObjectMeshInfo[], Game",
+        "$id": 15,
+        "$type": "17|Game.Prefabs.ObjectMeshInfo[], Game",
         "$rlength": 1,
         "$rcontent": [
             {
-                "$id": 15,
-                "$type": "17|Game.Prefabs.ObjectMeshInfo, Game",
+                "$id": 16,
+                "$type": "18|Game.Prefabs.ObjectMeshInfo, Game",
                 "m_Mesh": $fstrref:"UnityGUID:48f01a27112428849a93554cf9c393d3",
                 "m_Position": {
                     "$type": 8,
@@ -243,13 +250,13 @@
     "m_MinMultipleUnitCount": 1,
     "m_MaxMultipleUnitCount": 1,
     "m_Carriages": {
-        "$id": 16,
-        "$type": "18|Game.Prefabs.MultipleUnitTrainCarriageInfo[], Game",
+        "$id": 17,
+        "$type": "19|Game.Prefabs.MultipleUnitTrainCarriageInfo[], Game",
         "$rlength": 1,
         "$rcontent": [
             {
-                "$id": 17,
-                "$type": "19|Game.Prefabs.MultipleUnitTrainCarriageInfo, Game",
+                "$id": 18,
+                "$type": "20|Game.Prefabs.MultipleUnitTrainCarriageInfo, Game",
                 "m_Carriage": $fstrref:"UnityGUID:29ed104d73933484c8d7bf599f235d9e",
                 "m_Direction": 2,
                 "m_MinCount": 4,
