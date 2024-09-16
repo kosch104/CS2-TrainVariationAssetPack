@@ -4,7 +4,7 @@
   <ShortDescription Value="This Pack adds 6 train variations, consisting of different lengths" />
   <LongDescription>
 ## Train Variation Asset Pack
-This Pack adds 6 train variations in different lengths, including a double train. All variations exist for EU and NA themed train.
+This Pack adds 7 train variations in different lengths, including a double train. All variations exist for EU and NA themed train.
 
 ## New Assets
 - Passenger Train (3 Segment) (cap. 240)
@@ -14,6 +14,7 @@ This Pack adds 6 train variations in different lengths, including a double train
 - Passenger Train (7 Segment) (cap. 720)
 - Passenger Train (8 Segment, Vanilla) (cap. 840)
 - Passenger Train (2x3 Segments) (cap. 480)
+- Passenger Train (2x4 Segments) (cap. 600)
 
 ## Crossed Theme
 If you want to use the NA themed trains in the EU theme, or vice versa, you can use the "Crossed Theme Train Variation Asset Pack". This mod is available on PDX Mods. Both packs are compatible
@@ -22,9 +23,9 @@ If you want to use the NA themed trains in the EU theme, or vice versa, you can 
   <Screenshot Value="Properties/Train.jpg" />
   <Tag Value="Code Mod" />
   <ForumLink Value="" />
-  <ModVersion Value="1.1.1" />
+  <ModVersion Value="1.1.3" />
   <GameVersion Value="1.1.*" />
   <Dependency Id="78903" />
-  <ChangeLog>- Update Namespace</ChangeLog>
+  <ChangeLog>- Add 2x4 Segment Variation</ChangeLog>
   <ExternalLink Type="discord" Url="https://discord.gg/UkKAfRqfCn" />
 </Publish>

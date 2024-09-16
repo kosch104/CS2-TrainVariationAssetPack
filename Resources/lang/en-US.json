@@ -1,6 +1,8 @@
 {
   "Assets.NAME[EU_TrainPassengerEngine01_Double_1Car]": "Passenger Train (2x3 Segments)",
   "Assets.DESCRIPTION[EU_TrainPassengerEngine01_Double_1Car]": "",
+  "Assets.NAME[EU_TrainPassengerEngine01_Double_2Car]": "Passenger Train (2x4 Segments)",
+  "Assets.DESCRIPTION[EU_TrainPassengerEngine01_Double_2Car]": "",
   "Assets.NAME[EU_TrainPassengerEngine01_1Car]": "Passenger Train (3 Segments)",
   "Assets.DESCRIPTION[EU_TrainPassengerEngine01_1Car]": "",
   "Assets.NAME[EU_TrainPassengerEngine01_2Car]": "Passenger Train (4 Segments)",
@@ -14,6 +16,8 @@
 
   "Assets.NAME[NA_TrainPassengerEngine01_Double_1Car]": "Passenger Train (2x3 Segments)",
   "Assets.DESCRIPTION[NA_TrainPassengerEngine01_Double_1Car]": "",
+  "Assets.NAME[NA_TrainPassengerEngine01_Double_2Car]": "Passenger Train (2x4 Segments)",
+  "Assets.DESCRIPTION[NA_TrainPassengerEngine01_Double_2Car]": "",
   "Assets.NAME[NA_TrainPassengerEngine01_1Car]": "Passenger Train (3 Segments)",
   "Assets.DESCRIPTION[NA_TrainPassengerEngine01_1Car]": "",
   "Assets.NAME[NA_TrainPassengerEngine01_2Car]": "Passenger Train (4 Segments)",
